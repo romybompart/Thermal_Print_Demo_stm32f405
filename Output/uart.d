@@ -1,0 +1,17 @@
+..\Output\uart.o: ..\User_Library\src\uart.c
+..\Output\uart.o: ..\Stm32_Library\inc\uart.h
+..\Output\uart.o: ..\Basic\stm32f4xx.h
+..\Output\uart.o: C:\Keil\ARM\CMSIS\Include\core_cm4.h
+..\Output\uart.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\Output\uart.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+..\Output\uart.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+..\Output\uart.o: C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h
+..\Output\uart.o: C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h
+..\Output\uart.o: ..\Basic\stm32f4xx_conf.h
+..\Output\uart.o: ..\Stm32_Library\inc\stm32f4xx_gpio.h
+..\Output\uart.o: ..\Basic\stm32f4xx.h
+..\Output\uart.o: ..\Stm32_Library\inc\stm32f4xx_rcc.h
+..\Output\uart.o: ..\Stm32_Library\inc\stm32f4xx_spi.h
+..\Output\uart.o: ..\Stm32_Library\inc\stm32f4xx_usart.h
+..\Output\uart.o: ..\Stm32_Library\inc\misc.h
+..\Output\uart.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h

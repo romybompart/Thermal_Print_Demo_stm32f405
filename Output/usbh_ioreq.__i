@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp -g -O3 --apcs=interwork --split_sections -I..\Stm32_Library\inc -I..\Stm32_Library\src -I..\Basic -I..\Source_Code -I..\User_Library\inc -I..\User_Library\src -I..\Stm32_Library\STM32_USB_OTG_Driver\inc -I..\Stm32_Library\STM32_USB_Device_Library\Class\cdc\inc -I..\Stm32_Library\STM32_USB_Device_Library\Core\inc -I..\Source_Code\inc -I..\Stm32_Library\STM32_USB_HOST_Library\Core\inc -I..\Stm32_Library\STM32_USB_HOST_Library\Class\HID\inc 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F4xx 
+-DUSE_STDPERIPH_DRIVER -DSTM32F40XX -DUSE_EMBEDDED_PHY -DUSE_USB_OTG_FS -o "..\Output\usbh_ioreq.o" --omf_browse "..\Output\usbh_ioreq.crf" --depend "..\Output\usbh_ioreq.d" "..\Stm32_Library\STM32_USB_HOST_Library\Core\src\usbh_ioreq.c"

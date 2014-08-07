@@ -1,0 +1,5 @@
+--cpu Cortex-M4.fp "..\output\startup_stm32f4xx.o" "..\output\main.o" "..\output\usb_bsp.o" "..\output\usbd_cdc_vcp.o" "..\output\usbd_desc.o" "..\output\usbd_usr.o" "..\output\stm32f4xx_pwr.o" "..\output\stm32f4xx_exti.o" "..\output\stm32f4xx_flash.o" "..\output\stm32f4xx_gpio.o" "..\output\stm32f4xx_rcc.o" "..\output\stm32f4xx_spi.o" "..\output\misc.o" "..\output\stm32f4xx_usart.o" "..\output\stm32f4xx_tim.o" "..\output\stm32f4xx_dma.o" "..\output\stm32f4xx_sdio.o" "..\output\stm32f4xx_adc.o" "..\output\stm32f4xx_it.o" "..\output\system_stm32f4xx.o" "..\output\workmemory.o" "..\output\uart_hardware.o" "..\output\delay.o" "..\output\cronometer.o" "..\output\gpio_user.o" "..\output\usb_dcd_int.o" "..\output\usb_dcd.o" "..\output\usb_core.o" "..\output\usbd_core.o" "..\output\usbd_cdc_core.o" "..\output\usbd_ioreq.o" "..\output\usbd_req.o" "..\output\fonts.o" "..\output\header_hardware.o" 
+--strict --scatter "..\Output\Project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Project.map" -o ..\Output\Project.axf

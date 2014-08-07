@@ -1,0 +1,64 @@
+	
+
+#define asciistart 		'A'
+#define Fontrows		24
+#define FontColums		16
+#define	nextcharactercolum	((int8)Fontrows/8)
+#define Maxdotsperline		384
+#define Maxcharacterperline	Maxdotsperline/FontColums
+
+/*
+ *@brief this fucntions prints any text of 65535 of lenght, also it has its own calc method to 
+ * determine how many line will be printed up. 
+ *@argument this function just needs the text to print
+ */
+
+void printLetters(char *text)
+{
+	int8	row = 0;
+	int16 	character = 0, characters = 0, *LinePixels, lines = 0;
+
+	characters = strelen(text);
+	lines = ((characters-1)/Maxcharacterperline) + 1;
+	
+	while( lines != 0 )
+	{
+		while(row < Fontrows)
+		{
+			while ( character < characters )
+			{
+				LinePixels[character] = pixelsfont(row, text[character]);	
+				character++;
+			}
+			PrintDots(LinePixels[character]);
+			character = 0;
+			row++;
+		}
+		lines--;
+	}
+
+}
+
+
+/*
+ *@brief According with the organization of the data in the vector Font this function returns
+ * the entire line of pixels that compose the character required
+ *@arguments This function needs what row of the character is required and what character.
+ */
+ 
+int16 pixelsfont(int8 row, int8 letter)
+{
+	int8	colum, bit=0;
+	int16	letterOffset = 0, RowPixels = 0;
+ 
+	letterOffset = letter - asciistart + 1;
+	bit= ( row - (row/8)*8 )  ;	
+	
+
+	for ( colum = 0 ; colum < FontColums ; colum ++)
+	{
+        	RowPixels |= ( ( (0x01<<bit) & Font[letterOffset + colum*nextcharactercolum  + ( ( int8 ) row/8 ) ] ) << Colum );
+	}
+
+	return RowPixels;
+}

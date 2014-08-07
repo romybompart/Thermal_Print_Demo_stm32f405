@@ -1,0 +1,53 @@
+*** Creating Trace Output File '..\Output\Project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\startup_stm32f4xx.o"'
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\usb_bsp.o"'
+### List of Objects: adding '"..\output\usbd_cdc_vcp.o"'
+### List of Objects: adding '"..\output\usbd_desc.o"'
+### List of Objects: adding '"..\output\usbd_usr.o"'
+### List of Objects: adding '"..\output\stm32f4xx_pwr.o"'
+### List of Objects: adding '"..\output\stm32f4xx_exti.o"'
+### List of Objects: adding '"..\output\stm32f4xx_flash.o"'
+### List of Objects: adding '"..\output\stm32f4xx_gpio.o"'
+### List of Objects: adding '"..\output\stm32f4xx_rcc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_spi.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_usart.o"'
+### List of Objects: adding '"..\output\stm32f4xx_tim.o"'
+### List of Objects: adding '"..\output\stm32f4xx_dma.o"'
+### List of Objects: adding '"..\output\stm32f4xx_sdio.o"'
+### List of Objects: adding '"..\output\stm32f4xx_adc.o"'
+### List of Objects: adding '"..\output\stm32f4xx_it.o"'
+### List of Objects: adding '"..\output\system_stm32f4xx.o"'
+### List of Objects: adding '"..\output\workmemory.o"'
+### List of Objects: adding '"..\output\uart_hardware.o"'
+### List of Objects: adding '"..\output\delay.o"'
+### List of Objects: adding '"..\output\cronometer.o"'
+### List of Objects: adding '"..\output\gpio_user.o"'
+### List of Objects: adding '"..\output\usb_dcd_int.o"'
+### List of Objects: adding '"..\output\usb_dcd.o"'
+### List of Objects: adding '"..\output\usb_core.o"'
+### List of Objects: adding '"..\output\usbd_core.o"'
+### List of Objects: adding '"..\output\usbd_cdc_core.o"'
+### List of Objects: adding '"..\output\usbd_ioreq.o"'
+### List of Objects: adding '"..\output\usbd_req.o"'
+### List of Objects: adding '"..\output\fonts.o"'
+### List of Objects: adding '"..\output\header_hardware.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "..\output\startup_stm32f4xx.o" "..\output\main.o" "..\output\usb_bsp.o" "..\output\usbd_cdc_vcp.o" "..\output\usbd_desc.o" "..\output\usbd_usr.o" "..\output\stm32f4xx_pwr.o" "..\output\stm32f4xx_exti.o" "..\output\stm32f4xx_flash.o" "..\output\stm32f4xx_gpio.o" "..\output\stm32f4xx_rcc.o" "..\output\stm32f4xx_spi.o" "..\output\misc.o" "..\output\stm32f4xx_usart.o" "..\output\stm32f4xx_tim.o" "..\output\stm32f4xx_dma.o" "..\output\stm32f4xx_sdio.o" "..\output\stm32f4xx_adc.o" "..\output\stm32f4xx_it.o" "..\output\system_stm32f4xx.o" "..\output\workmemory.o" "..\output\uart_hardware.o" "..\output\delay.o" "..\output\cronometer.o" "..\output\gpio_user.o" "..\output\usb_dcd_int.o" "..\output\usb_dcd.o" "..\output\usb_core.o" "..\output\usbd_core.o" "..\output\usbd_cdc_core.o" "..\output\usbd_ioreq.o" "..\output\usbd_req.o" "..\output\fonts.o" "..\output\header_hardware.o" 
+--strict --scatter "..\Output\Project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Project.map" -o ..\Output\Project.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\Project.axf'
+### ADS-LD Command File: '..\Output\Project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\Project.lnp', Handle=0x00000560
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\Project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
