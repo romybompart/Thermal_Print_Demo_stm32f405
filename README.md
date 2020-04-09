@@ -3,6 +3,7 @@ Thermal_Print_Demo_stm32f405
 
 This Repository is a Keil project that contains the source code for printing with a thermal header similar to a Seiko LTP02-245
 
+[![Thermal print demo video](http://img.youtube.com/vi/SbkvKjyN-X8/0.jpg)](http://www.youtube.com/watch?v=SbkvKjyN-X8)
 
 FONTS
 -----------
@@ -16,3 +17,5 @@ FONTS CREATOR
 
 Font characters can be created by a simple script written in visualbasic for EXCEL.
 You can find it on this path: Thermal_Print_Demo_Stm32f107/FontCreator
+
+
